@@ -22,3 +22,5 @@ INSERT INTO Guests VALUES
 (2, 'Sita Thapa', '9800000002');
 INSERT INTO Booking VALUES
 (1, 1, 101, '2025-01-10', '2025-01-12');
+show databases;
+show tables;
