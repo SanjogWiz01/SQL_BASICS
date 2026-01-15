@@ -1,5 +1,4 @@
--- File: 06_limit_clause.sql
--- Topic: SQL LIMIT Clause
+-- Create a database and use it
 
 CREATE DATABASE limit_clause_db;
 USE limit_clause_db;
