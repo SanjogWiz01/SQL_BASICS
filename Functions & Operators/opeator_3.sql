@@ -53,3 +53,18 @@ FROM marks_a;
 DROP TABLE marks_a;
 DROP TABLE marks_b;
 DROP DATABASE operators_part3_db;
+
+
+Operators covered
+
+EXCEPT Operator
+
+ALL Operator
+
+ANY Operator
+
+INTERSECT Operator
+
+EXISTS Operator
+
+CASE Operator
