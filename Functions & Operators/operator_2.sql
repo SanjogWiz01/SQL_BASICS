@@ -1,3 +1,16 @@
+/* Operators covered
+
+NOT EQUAL Operator
+
+IS NULL Operator
+
+BETWEEN Operator
+
+UNION Operator
+
+UNION ALL Operator
+
+*/
 CREATE DATABASE operators_part2_db;
 USE operators_part2_db;
 
