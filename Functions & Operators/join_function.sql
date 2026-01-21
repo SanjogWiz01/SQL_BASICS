@@ -69,3 +69,4 @@ SELECT e.emp_id,e.emp_name,e.manager_id FROM employees e JOIN emp_tree t ON e.ma
 SELECT * FROM emp_tree;
 
 DROP DATABASE joins_practice;
+-- added every file --
