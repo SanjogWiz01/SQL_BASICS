@@ -1,0 +1,1 @@
+-- this contain right and inner joins
