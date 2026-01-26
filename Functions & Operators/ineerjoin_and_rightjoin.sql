@@ -6,14 +6,14 @@ CREATE TABLE students (
     student_id INT PRIMARY KEY,
     student_name VARCHAR(50),
     city VARCHAR(50)
-);
+);  --students table
 
 CREATE TABLE courses (
     course_id INT PRIMARY KEY,
     course_name VARCHAR(50),
     student_id INT
 );
-
+ --courses table
 INSERT INTO students VALUES
 (1,'Ram Sharma','Kathmandu'),
 (2,'Sita Khadka','Pokhara'),
@@ -31,17 +31,17 @@ INSERT INTO courses VALUES
 SELECT students.student_name, courses.course_name
 FROM students
 JOIN courses
-ON students.student_id = courses.student_id;
+ON students.student_id = courses.student_id;  --inner join
 
 SELECT students.student_name, courses.course_name
 FROM students
 LEFT JOIN courses
-ON students.student_id = courses.student_id;
+ON students.student_id = courses.student_id; --left join
 
 SELECT students.student_name, courses.course_name
 FROM students
 RIGHT JOIN courses
-ON students.student_id = courses.student_id;
+ON students.student_id = courses.student_id; --right join
 
 DROP TABLE courses;
 DROP TABLE students;
