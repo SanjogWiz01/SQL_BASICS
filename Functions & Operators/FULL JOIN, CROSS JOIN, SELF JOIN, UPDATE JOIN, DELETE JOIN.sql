@@ -55,3 +55,4 @@ WHERE employees.emp_name = 'Bina Lama';
 DROP TABLE salaries;
 DROP TABLE employees;
 DROP DATABASE joins;
+-- end of code
