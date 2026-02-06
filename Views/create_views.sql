@@ -16,3 +16,10 @@ create view  MINUTE_MICROSECOND_view as
 select name, price from gagets where price >=150;
 select * from MINUTE_MICROSECOND_view;
 drop view IF EXISTS MINUTE_MICROSECOND_view;
+
+/* create joined view */
+ CREATE VIEW employee_department_info AS
+SELECT e.employee_id, e.first_name, e.last_name, d.department_name
+FROM employees e
+JOIN departments d ON e.department_id = d.department_id;
+
