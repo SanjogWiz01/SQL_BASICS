@@ -13,8 +13,9 @@ CREATE TABLE student_info (
     admission_date DATE DEFAULT (CURDATE()) /* Sets the default value to the current date */
 );
 
-INSERT INTO student_info (student_id, student_name, email, age, gender)
-VALUES (101, 'Sabin Thapa', 'sabin@example.com', 20, 'M');
+INSERT INTO constraintsdb.student_info
+
+VALUES (103, 'Sabin Thapa', 'sabij,hjgn@example.com', 20, 'M');
 
 select * from 
 student_info;
@@ -81,3 +82,5 @@ show databases;
 drop database university;
 drop table mysql.student_info;
 drop table mysql.course;
+insert into student_info
+values(106,'Alice Brown','alice@example.com',22,'F',3);
