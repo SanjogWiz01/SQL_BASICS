@@ -51,7 +51,8 @@ SELECT student_id, name, city, marks
 FROM students
 WHERE department = 'Computer';  
 
-SELECT * FROM computer_students;
+SELECT * FROM computer_students; /* viewing a view is same as viewing am sqk*/
+
 
 UPDATE computer_students
 SET marks = 95
@@ -61,9 +62,9 @@ SELECT * FROM computer_students;
 
 RENAME TABLE computer_students TO cs_students_view;
 
-SELECT * FROM cs_students_view;
+SELECT * FROM cs_students_view;    
 
-DROP VIEW cs_students_view;
+DROP VIEW cs_students_view;  /* droping an view */
 
 DROP TABLE students;
 
