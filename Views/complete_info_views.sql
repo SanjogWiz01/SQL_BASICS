@@ -12,7 +12,7 @@ CREATE TABLE students (
     department VARCHAR(50),
     age INT,
     marks INT
-);
+); 
 
 INSERT INTO students VALUES
 (1, 'Sanjog', 'Pokhara', 'Computer', 19, 78),
@@ -49,7 +49,7 @@ INSERT INTO students VALUES
 CREATE VIEW computer_students AS
 SELECT student_id, name, city, marks
 FROM students
-WHERE department = 'Computer';
+WHERE department = 'Computer';  
 
 SELECT * FROM computer_students;
 
