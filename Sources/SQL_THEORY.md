@@ -1,6 +1,6 @@
 # SQL Complete Study Guide for DBMS Exam
 
-## Table of Contents
+## Table of Contents 
 1. [Introduction to SQL](#introduction-to-sql)
 2. [DDL (Data Definition Language)](#ddl-data-definition-language)
 3. [DML (Data Manipulation Language)](#dml-data-manipulation-language)
