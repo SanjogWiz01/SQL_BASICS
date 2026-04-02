@@ -74,7 +74,7 @@ CREATE TABLE Students (
 - **AUTO_INCREMENT**: Automatically generates sequential values
 
 **Example with constraints:**
-```sql
+```sql  
 CREATE TABLE Courses (
     CourseID INT PRIMARY KEY AUTO_INCREMENT,
     CourseName VARCHAR(100) NOT NULL,
