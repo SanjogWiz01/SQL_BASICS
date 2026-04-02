@@ -41,7 +41,7 @@ DDL statements are used to **define and manage the database structure**.
 
 #### Creating a Database:
 ```sql
-CREATE DATABASE database_name;
+CREATE DATABASE database_name; data created
 ```
 
 #### Creating a Table:
