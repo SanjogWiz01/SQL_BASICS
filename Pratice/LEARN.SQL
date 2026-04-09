@@ -43,3 +43,11 @@ INSERT INTO Enrollment VALUES
 (1004, 1, 103, 'C');
 
 --create views
+CREATE VIEW v_StudentGrades AS
+SELECT 
+    s.name AS student_name,
+    c.course_name,
+    e.grade
+FROM Enrollment e
+JOIN Students s ON e.student_id = s.student_id
+JOIN Courses c ON e.course_id = c.course_id;
