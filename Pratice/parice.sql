@@ -6,7 +6,7 @@ CREATE TABLE DataUnits (
 );
 
 -- Insert sample data (without parity bit yet)
-INSERT INTO DataUnits (id, data_bits)
+INSERT INTO DataUnits (id, data_bits) 
 VALUES 
 (1, '10110010'),
 (2, '11100011'),
