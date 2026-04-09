@@ -41,3 +41,5 @@ INSERT INTO Enrollment VALUES
 (1002, 2, 102, 'B'),
 (1003, 3, 103, 'A'),
 (1004, 1, 103, 'C');
+
+--create views
