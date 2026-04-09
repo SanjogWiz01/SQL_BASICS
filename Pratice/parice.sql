@@ -29,7 +29,7 @@ BEGIN
 
     -- If count of 1s is even → parity = 0, else parity = 1
     RETURN (CASE WHEN @count % 2 = 0 THEN '0' ELSE '1' END);
-END; -- added sql to to pratice files
+END; -- added sql to to pratice files 
 
 -- Update table with calculated parity bits
 UPDATE DataUnits
