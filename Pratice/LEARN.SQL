@@ -23,3 +23,21 @@ CREATE TABLE Enrollment (
     FOREIGN KEY (student_id) REFERENCES Students(student_id),
     FOREIGN KEY (course_id) REFERENCES Courses(course_id)
 );
+
+--insert samples
+
+INSERT INTO Students VALUES
+(1, 'Aarav Sharma', 'Computer Science', 2),
+(2, 'Sita Rai', 'Economics', 3),
+(3, 'Ramesh Koirala', 'Physics', 1);
+
+INSERT INTO Courses VALUES
+(101, 'Database Systems', 3, 'Computer Science'),
+(102, 'Microeconomics', 4, 'Economics'),
+(103, 'Quantum Mechanics', 3, 'Physics');
+
+INSERT INTO Enrollment VALUES
+(1001, 1, 101, 'A'),
+(1002, 2, 102, 'B'),
+(1003, 3, 103, 'A'),
+(1004, 1, 103, 'C');
