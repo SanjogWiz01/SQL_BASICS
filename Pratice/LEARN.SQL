@@ -36,7 +36,7 @@ INSERT INTO Courses VALUES
 (102, 'Microeconomics', 4, 'Economics'),
 (103, 'Quantum Mechanics', 3, 'Physics');
 
-INSERT INTO Enrollment VALUES 
+INSERT INTO Enrollment VALUES
 (1001, 1, 101, 'A'),
 (1002, 2, 102, 'B'),
 (1003, 3, 103, 'A'),
