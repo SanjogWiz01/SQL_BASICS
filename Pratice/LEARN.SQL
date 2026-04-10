@@ -50,4 +50,4 @@ SELECT
     e.grade
 FROM Enrollment e
 JOIN Students s ON e.student_id = s.student_id
-JOIN Courses c ON e.course_id = c.course_id;  ALTER
+JOIN Courses c ON e.course_id = c.course_id;
