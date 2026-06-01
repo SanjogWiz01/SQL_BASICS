@@ -3,14 +3,14 @@ CREATE DATABASE where_clause_db;
 USE where_clause_db;
 
 CREATE TABLE students (
-    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    student_id INT PRIMARY KEY AUTO_INCREMENT, -- commet can be written 
     name VARCHAR(50),
     age INT,
     city VARCHAR(50),
     marks INT
 );
 
-INSERT INTO students (name, age, city, marks) VALUES
+INSERT INTO students (name, age, city, marks) VALUES 
 ('Sanjog', 20, 'Pokhara', 78),
 ('Aarav', 22, 'Kathmandu', 65),
 ('Bikash', 19, 'Butwal', 88),
